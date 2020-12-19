@@ -55,6 +55,7 @@ namespace RPG.Control
                 if (Mouse.current.leftButton.wasPressedThisFrame)
                 {
                     fighter.Attack(target);
+                    
                 }
                 return true;
                 

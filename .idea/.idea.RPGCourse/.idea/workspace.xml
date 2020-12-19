@@ -1,11 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="379283e1-166e-4c93-9325-c795f0fa1ee6" name="Default Changelist" comment="" />
+    <list default="true" id="379283e1-166e-4c93-9325-c795f0fa1ee6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Bow.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Bow/RPG-Character@2Hand-Bow-Attack1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Club.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Club/RPG-Character@2Hand-Club-Attack8.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Club/RPG-Character@2Hand-Club-Attack8.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Spear.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Spear/RPG-Character@2Hand-Spear-Attack2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Spear/RPG-Character@2Hand-Spear-Attack2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Spear/RPG-Character@2Hand-Spear-Attack3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Spear/RPG-Character@2Hand-Spear-Attack3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Sword.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Armed.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Armed/RPG-Character@Armed-Death1.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Armed/RPG-Character@Armed-Death1.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Item.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Item/RPG-Character@Item-Attack-L2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Item/RPG-Character@Item-Attack-L2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/README - Usage Rights for these assets 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/README - Usage Rights for these assets 1.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/RPG-Character@Sword-Attack-R6.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations by Explosive/Sword/RPG-Character@Sword-Attack-R6.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Asset Packs/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Character_Base.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/Character_Base.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Asset Packs/Imports/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Asset Packs/Imports/Synty - Polygon Student Sample/Prefabs/Character_Knights_Soldier_02.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Character.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Character.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemy.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemy.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -17,22 +68,29 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Movement/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/HealthComponent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lnX79hRk32yb4UxqqLqqgJK6Zm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -69,6 +127,7 @@
       <workItem from="1608325993169" duration="1507000" />
       <workItem from="1608333522402" duration="7630000" />
       <workItem from="1608345074371" duration="3269000" />
+      <workItem from="1608408483212" duration="3801000" />
     </task>
     <servers />
   </component>
@@ -77,7 +136,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
