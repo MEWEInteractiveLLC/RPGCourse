@@ -35,12 +35,14 @@ namespace RPG.Movement
         {
             GetComponent<ActionScheduler>().StartAction(this);
             agent.SetDestination(direction);
+           
             
         }
 
         public void MoveTo(Vector3 location)
         {
             agent.isStopped = false;
+            
             agent.SetDestination(location);
         }
 
@@ -60,6 +62,8 @@ namespace RPG.Movement
 
             animator.SetFloat(ForwardSpeed, currentSpeed);
         }
+
+     
 
        
     }

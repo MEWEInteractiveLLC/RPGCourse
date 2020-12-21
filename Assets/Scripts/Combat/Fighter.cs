@@ -13,7 +13,7 @@ namespace RPG.Combat
         [SerializeField] private float weaponDamage = 10.0f;
 
         private float timeSinceLastAttack;
-        private Transform attackTarget;
+        private HealthComponent attackTarget;
 
 
         private void Update()
@@ -25,11 +25,11 @@ namespace RPG.Combat
                 return;
             }
 
-            bool isInRange = Vector3.Distance(transform.position, attackTarget.position) < attackRange;
+            bool isInRange = Vector3.Distance(transform.position, attackTarget.transform.position) < attackRange;
             
             if (!isInRange)
             {
-                mover.MoveTo(attackTarget.position);
+                mover.MoveTo(attackTarget.transform.position);
             }
             else
             {
@@ -47,7 +47,9 @@ namespace RPG.Combat
         private void AttackBehavior()
         {
             if (!(timeSinceLastAttack > timeBetweenAttacks)) return;
-            
+            if (!attackTarget.IsAlive()) return;
+            transform.LookAt(attackTarget.transform.position);
+            animator.ResetTrigger("StopAttack");
             animator.SetTrigger("Attack");
             timeSinceLastAttack = 0.0f;
            
@@ -59,8 +61,9 @@ namespace RPG.Combat
 
         public void Attack(CombatTarget target)
         {
+            
             GetComponent<ActionScheduler>().StartAction(this);
-            attackTarget = target.transform;
+            attackTarget = target.GetComponent<HealthComponent>();
             
             
         }
@@ -69,13 +72,18 @@ namespace RPG.Combat
         public void Cancel()
         {
             attackTarget = null;
+            animator.SetTrigger("StopAttack");
+            animator.ResetTrigger("Attack");
         }
 
         // Animation Event
         void Hit()
         {
-           HealthComponent health = attackTarget.GetComponent<HealthComponent>();
-           health.AdjustHealth(-weaponDamage);
+            if (!attackTarget)
+            {
+                return;
+            }
+            attackTarget.AdjustHealth(-weaponDamage);
         }
     }
 }
