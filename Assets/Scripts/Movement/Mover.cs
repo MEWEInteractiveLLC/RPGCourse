@@ -10,31 +10,36 @@ namespace RPG.Movement
 
 
         [SerializeField] private NavMeshAgent agent;
-       
-        
-
-            
         private Ray lastRay;
         private Animator animator;
+        private HealthComponent health;
         private static readonly int ForwardSpeed = Animator.StringToHash("forwardSpeed");
 
         // Start is called before the first frame update
         void Start()
         {
 
+            health = GetComponent<HealthComponent>();
             animator = GetComponent<Animator>();
+            
+
         }
 
         // Update is called once per frame
         void Update()
         {
             UpdateAnimation();
+            agent.enabled = health.IsAlive();
         }
 
         public void StartMoveAction(Vector3 direction)
         {
             GetComponent<ActionScheduler>().StartAction(this);
-            agent.SetDestination(direction);
+            if (agent.enabled)
+            {
+                agent.SetDestination(direction);
+            }
+            
            
             
         }
@@ -62,9 +67,6 @@ namespace RPG.Movement
 
             animator.SetFloat(ForwardSpeed, currentSpeed);
         }
-
-     
-
        
     }
 }

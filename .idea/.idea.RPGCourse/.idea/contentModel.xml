@@ -20,7 +20,6 @@
           <e p="Combat" t="Include">
             <e p="CombatTarget.cs" t="Include" />
             <e p="Fighter.cs" t="Include" />
-            <e p="HealthComponent.cs" t="Include" />
           </e>
           <e p="Control" t="Include">
             <e p="AIController.cs" t="Include" />
@@ -29,6 +28,7 @@
           <e p="Core" t="Include">
             <e p="ActionScheduler.cs" t="Include" />
             <e p="FollowCamera.cs" t="Include" />
+            <e p="HealthComponent.cs" t="Include" />
             <e p="IAction.cs" t="Include" />
           </e>
           <e p="Movement" t="Include">

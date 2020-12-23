@@ -34,9 +34,7 @@ namespace RPG.Combat
             else
             {
                 mover.Cancel();
-                
                 AttackBehavior();
-                
             }
 
             
@@ -52,20 +50,13 @@ namespace RPG.Combat
             animator.ResetTrigger("StopAttack");
             animator.SetTrigger("Attack");
             timeSinceLastAttack = 0.0f;
-           
-
-
-
-
         }
 
-        public void Attack(CombatTarget target)
+        public void Attack(GameObject target)
         {
-            
             GetComponent<ActionScheduler>().StartAction(this);
-            attackTarget = target.GetComponent<HealthComponent>();
-            
-            
+            attackTarget = target.transform.GetComponent<HealthComponent>();
+            print(attackTarget.name);
         }
 
 
@@ -83,7 +74,18 @@ namespace RPG.Combat
             {
                 return;
             }
+
+            if (!IsInAttackRange())
+            {
+                return;
+            }
             attackTarget.AdjustHealth(-weaponDamage);
+        }
+
+
+        private bool IsInAttackRange()
+        {
+            return Vector3.Distance(transform.position, attackTarget.transform.position) < attackRange;
         }
     }
 }

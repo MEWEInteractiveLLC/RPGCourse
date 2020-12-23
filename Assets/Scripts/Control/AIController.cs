@@ -1,4 +1,7 @@
 ﻿using System;
+using RPG.Combat;
+using RPG.Core;
+using RPG.Movement;
 using UnityEngine;
 
 namespace RPG.Control
@@ -6,21 +9,70 @@ namespace RPG.Control
     public class AIController : MonoBehaviour
     {
         [SerializeField] private float chaseDistance = 5.0f;
-        [SerializeField] private float attackRange = 2.0f;
+        [SerializeField] private Fighter fighter;
+        [SerializeField] private HealthComponent health;
+        [SerializeField] private float maxSuspicionTime = 2.0f;
+
+        private GameObject player;
+        private Vector3 guardPosition;
+        private Mover mover;
+        private float timeLastSawPlayer = Mathf.Infinity;
+        
+
+        private void Start()
+        {
+            player = GameObject.FindWithTag("Player");
+            mover = GetComponent<Mover>();
+            guardPosition = transform.position;
+        }
 
 
         private void Update()
         {
-            if (DistanceToPlayer() < chaseDistance)
+            if (IsInDistanceToPlayer() && health.IsAlive())
             {
-                print( gameObject.name + " is chasing ");
+                timeLastSawPlayer = 0.0f;
+                AttackBehavior();
             }
+            else if (timeLastSawPlayer < maxSuspicionTime)
+            {
+                SuspicionBehavior();
+            }
+            else
+            {
+                GuardBehavior();
+            }
+
+            timeLastSawPlayer += Time.deltaTime;
         }
 
-        private float DistanceToPlayer()
+        private void GuardBehavior()
         {
-            GameObject player = GameObject.FindWithTag("Player");
-            return Vector3.Distance(transform.position, player.transform.position);
+            mover.StartMoveAction(guardPosition);
+        }
+
+        private void SuspicionBehavior()
+        {
+            GetComponent<ActionScheduler>().CancelCurrentAction();
+        }
+
+        private void AttackBehavior()
+        {
+            fighter.Attack(player);
+        }
+
+        private bool IsInDistanceToPlayer()
+        {
+            return Vector3.Distance(transform.position, player.transform.position) < chaseDistance;
+        }
+
+      
+
+
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, chaseDistance);
         }
     }
 }

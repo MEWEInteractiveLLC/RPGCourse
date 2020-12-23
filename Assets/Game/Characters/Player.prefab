@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mover: {fileID: 2244987108084749199}
   fighter: {fileID: 2977373314188031875}
+  health: {fileID: 1077536810408128658}
 --- !u!1001 &2244987107384936729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21,6 +22,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1807473302, guid: 26c3e1bd9414510469514bbbf3a07b46, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 1077536810408128658}
     - target: {fileID: 1863434374020485506, guid: 26c3e1bd9414510469514bbbf3a07b46, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -105,6 +110,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 739cbaeb597f43409e357260c463af40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1077536810408128658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1284623086511618443, guid: 26c3e1bd9414510469514bbbf3a07b46, type: 3}
+  m_PrefabInstance: {fileID: 2244987107384936729}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6167884848776876081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d4664d570384098adf53412ac0b1772, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2746564799767066921

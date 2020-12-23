@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace RPG.Combat
+namespace RPG.Core
 {
     public class HealthComponent : MonoBehaviour
     {
@@ -24,13 +24,21 @@ namespace RPG.Combat
 
                 if (health <= 0.0f && isAlive)
                 {
-                    isAlive = false;
-                    GetComponent<CapsuleCollider>().enabled = false;
-                    animator.SetTrigger("Death");
+                    Die();
                 }
 
             }
         }
 
+        private void Die()
+        {
+            isAlive = false;
+            if (GetComponent<CapsuleCollider>() != null)
+            {
+                GetComponent<CapsuleCollider>() .enabled = false;
+            }
+            GetComponent<ActionScheduler>().CancelCurrentAction();
+            animator.SetTrigger("Death");
+        }
     }
 }
