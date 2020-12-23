@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="379283e1-166e-4c93-9325-c795f0fa1ee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene/NavMesh.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene/NavMesh.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/HealthComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/HealthComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/PatrolPath.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game/Characters/PatrolPath.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PatrolPath.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPGCourse/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Character_Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Character_Base.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Enemy.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game/Characters/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Sandbox_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/CombatTarget.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Combat/HealthComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Control/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/ActionScheduler.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/FollowCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IAction.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +35,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Movement/Mover.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Combat/Fighter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Control/AIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Control/PatrolPath.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lnX79hRk32yb4UxqqLqqgJK6Zm" />
@@ -125,6 +97,7 @@
       <workItem from="1608669392152" duration="1702000" />
       <workItem from="1608671262456" duration="2850000" />
       <workItem from="1608674274423" duration="4548000" />
+      <workItem from="1608692386316" duration="2305000" />
     </task>
     <servers />
   </component>
